@@ -3,10 +3,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col">
-            <app-odd *ngFor="let oddNum of oddNumbers" [number]="oddNum"></app-odd>
-            <app-even *ngFor="let evenNum of evenNumbers" [number]="evenNum"></app-even>
-
-        </div>
+        <app-odd *ngFor="let oddNum of oddNumbers" [number]="oddNum"></app-odd>
+        <app-even *ngFor="let evenNum of evenNumbers" [number]="evenNum"></app-even>
     </div>
 </div>
